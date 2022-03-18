@@ -10,6 +10,7 @@ body {
   background-color: #a9a9a9;
   letter-spacing: 0.2em; }
 
+/* ヘッダー */
 header {
   padding: 30px 4% 10px;
   position: fixed;
@@ -40,6 +41,7 @@ li {
   margin: 0 0 0 15px;
   font-size: 14px; }
 
+/* メインビジュアル */
 .main-visual {
   display: flex;
   justify-content: center;
@@ -52,5 +54,35 @@ h2 {
   font-size: 30px;
   font-weight: normal;
   color: #fff; }
+
+/* コンテンツ */
+.contents {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/* メインコンテンツ */
+.main {
+  float: left;
+  width: 72%;
+  padding: 10px;
+  background-color: #b3d874;
+  height: 400px; }
+
+/* サイドコンテンツ */
+.side {
+  width: 22%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #ff838b; }
+
+/* フッター */
+.footer {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  height: 100px;
+  background-color: #ffce5b; }
 
 /*# sourceMappingURL=style.css.map */
