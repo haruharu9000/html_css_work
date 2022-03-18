@@ -12,7 +12,7 @@ a {
 
  .container {
      max-width: 1200px;
-     padding: 0 48px;
+     padding: 0 40px;
      margin: 0 auto;
  }
 
@@ -25,7 +25,7 @@ ul {
     color: #fff;
     background: #000;
 }
-    .header_a.container {
+    .header_a > .container {
         height: 60px;
         display: flex;
         align-items: center;
@@ -63,7 +63,24 @@ ul {
 
 .list_nav_header .btn_contact {
    color: #000;
-   display: block;
-   height: 32px;
+   display: flex;
+   align-items: center;
+   height: 36px;
+   padding: 0 24px 0 48px;
    background: #0cf;
+   border-radius: 2px;
+position: relative;
+}
+
+.list_nav_header .btn_contact::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: red;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate(0,-50%);
 }

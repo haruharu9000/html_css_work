@@ -11,7 +11,7 @@ body {
 
 .container {
   max-width: 1200px;
-  padding: 0 48px;
+  padding: 0 40px;
   margin: 0 auto;
 }
 
@@ -25,7 +25,7 @@ ul {
   background: #000;
 }
 
-.header_a.container {
+.header_a > .container {
   height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,8 +71,30 @@ ul {
 
 .list_nav_header .btn_contact {
   color: #000;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 36px;
+  padding: 0 24px 0 48px;
   background: #0cf;
+  border-radius: 2px;
+  position: relative;
+}
+
+.list_nav_header .btn_contact::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: red;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
 }
 /*# sourceMappingURL=style.css.map */
