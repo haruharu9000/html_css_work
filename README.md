@@ -4,7 +4,8 @@
 
 #### その他
 
-SASS/SCSSの書き方
+SASS/SCSSの書き方 
+
 GitHubの使い方
 
 ## 参考資料
